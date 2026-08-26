@@ -1,0 +1,84 @@
+body, h1, h2, h3, h4, p, ul, ol, dl, li, dt, dd, th, td, i, b, em, strong { 
+	font-family: sans-serif, Arial, Helvetica; }
+
+h1, h2, h3, h4 { 
+	color: #000099;
+	background: transparent;
+        /* font-variant: small-caps; */}
+
+h4 {	padding-left: 2% }
+
+body {  background-image: url('grass1.jpg');
+	color: black;
+	margin-left: 3%; 
+  	margin-right: 3%; 
+	margin-top: 2em;
+	margin-bottom: 2em; }
+
+img {	border:none;
+	margin:0px;
+	padding:0px; }
+
+img.right { float:right;
+            margin: 0 0 0 10px }
+
+
+p {	padding-left: 3% }
+
+ul, ol, dl {
+        margin-top: 0.8em;
+        margin-left: 1ex;
+/*	padding-left: 1ex;*/
+        margin-bottom:0.8em; }
+
+li, dt, dd {
+        margin-left: 1ex;
+/*	padding-left: 1ex; */
+	margin-bottom: 0.8em; }
+
+hr {	border-top: 2px solid;
+	border-color: red; 
+    	clear: both; } 
+        
+a:link{ background: transparent; color: #3333cc;
+	/* text-decoration: none; */ }
+
+a:visited { background: transparent; color: purple;
+            /* text-decoration: none; */ }
+/*
+a:hover { background: transparent; 
+	  color: #339900;
+          text-decoration: underline; }
+*/
+
+a:hover { 
+	background: navy; 
+	color: white;
+        text-decoration: none; 
+	}
+
+#head { clear: both;
+        background: white;
+        padding: 10px; }
+
+#frontpage-head h2 { 
+	border-bottom: 2px solid red; 
+	}
+
+#frontpage-head img {
+        margin: 10px;
+        float: left;
+        }
+
+#content { 
+	border-top: 2px solid red;
+        border-bottom: 2px solid red;
+	clear: both; 
+        background: white;
+        padding: 10px;
+	}
+
+#foot { 
+	display:inline;
+        font-size:small; 
+	}
